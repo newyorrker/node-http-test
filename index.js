@@ -25,7 +25,6 @@ const postData = {
   "installationId": "-1"
 }
 
-
 client.post("/offer-view/offers/100984093", postData, {headers})
   .then((response) => {
     // console.log('Ответ от сервера:', response.data);
